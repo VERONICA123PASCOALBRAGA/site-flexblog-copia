@@ -1,0 +1,39 @@
+.bg {
+  background: #122ab2;
+}
+.header {
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 1200px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bg {
+  background: #2c70ff;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.nav h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.nav a {
+  color: #ffffff;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+.nav ul {
+  display: flex;
+}

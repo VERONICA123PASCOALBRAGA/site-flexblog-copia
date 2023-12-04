@@ -1,0 +1,113 @@
+.preco {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px;
+  background: #f7f7f7;
+  align-items: flex-end;
+}
+.preco-item {
+  flex: 1;
+  border: solid white 4px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 260px;
+}
+.preco-item h2 {
+  color: #a4a4a4;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20px;
+}
+.preco-item span {
+  max-width: 300px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  margin: 20px auto;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  font-size: 3em;
+}
+.preço-item sup {
+  font-size: 1.5rem;
+}
+.preco-item ul {
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25em;
+  font-style: italic;
+  color: #7c7c7c;
+}
+.preco-item li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.preco-item li::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #2c70ff;
+  border-radius: 50%;
+}
+.preco-item a {
+  max-width: 300px;
+  border: solid #222222 4px;
+  display: block;
+  padding: 15px 0;
+  margin: 20px auto;
+  text-transform: uppercase;
+  color: #3f3c3c;
+  font-weight: bold;
+  font-size: 2.25em;
+  text-align: center;
+}
+.qualidade {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.qualidade-item {
+  flex: 1 1 350px;
+  margin: 0 10px;
+  color: #3f3c3c;
+  padding: 30px;
+}
+.qualidade-item h2 {
+  color: #706a6a;
+  font-size: 2rem;
+  margin-left: 20px;
+}
+.qualidade-item h2::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 30px;
+  background: rgb(198, 116, 239);
+  margin-left: -20px;
+  margin-bottom: -35px;
+}
+.qualidade-item:nth-of-type(3n + 1) h2::before {
+  background: #ae81ff;
+}
+.qualidade-item:nth-of-type(3n + 2) h2::before {
+  background: #e22d63;
+}
+.qualidade-item:nth-of-type(3n + 3) h2::before {
+  background: #1bdaeb;
+}
+.qualidade-item p {
+  font-size: 1, 25em;
+  line-height: 1.4;
+  color: #7c7c7c;
+}
+@media (max-width: 800px) {
+  .preco {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
